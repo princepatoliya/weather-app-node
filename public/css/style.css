@@ -1,0 +1,58 @@
+body{
+    font-family: "Calibri";
+    max-width: 650px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.maincontent{
+    flex-grow: 1;
+}
+
+.maincontent .heading{
+    font-size: 18px;
+
+}
+
+header{
+    /* background-color: red; */
+    margin-top: 50px;
+    margin-bottom: 35px;
+    font-weight: 800;
+}
+
+header p{
+    font-size: 66px;
+    margin-bottom: 16px;
+}
+
+header span a{
+    color: #888888;
+    font-size: 19px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+footer{
+    border-top: 1px solid darkgrey;
+    color: darkgrey;
+    padding: 5px auto;
+    /* background-color: red; */
+    text-align: end;
+}
+
+footer p{
+    font-size: 22px;
+}
+
+
+.aboutpic{
+    display: flex;
+}
+.aboutpic span{
+    margin-top: 55px;
+    margin-left: 25px;
+    font-size: 30px;
+}
